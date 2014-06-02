@@ -1,0 +1,17 @@
+//task helloworld << {
+//    println "Hello, world!"
+//}
+//
+// 上と同じ意味合い
+task helloworld {
+    description = "こんにちは！タスクです。"
+
+    doLast {
+        println "Hello, world!"
+    }
+}
+// // 常によばれる？
+// task helloworld {
+//     println "Hello, world!"
+// }
+//
